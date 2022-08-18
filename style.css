@@ -81,5 +81,9 @@ cursor: pointer
     
 }
 
+#newGameBtn:hover {
+    transform: scale(1.2);
+}
+
 h4 {
     display: none;}
