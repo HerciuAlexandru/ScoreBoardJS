@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: blue;
+    color: #eee;
+    text-shadow: 0 0 1px black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center
+    
+}
+
+.titleTable {
+ font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+}
+
+.scoreTable {
+width: 155px;
+height: 120px;
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 5px;
+
+color: #F94F6D;
+font-size: 7em;
+font-family: 'Cursed Timer ULiL';
+}
+
+.pointsTable {
+margin-top: 2em;
+width: 155px;
+height: 45px;
+
+display: flex;
+justify-content: space-around;
+
+
+
+}
+
+.point {
+ color: inherit;
+ width: 45px;
+ background-color: transparent;
+    
+border: 2px solid #9AABD8;
+border-radius: 5px;
+font-family: inherit;
+text-align: center;
+font-size: 1.2em;
+font-weight: bold;
+cursor: pointer
+ 
+}
+
+.point:hover {
+    color: green;
+    transform: scale(1.2);
+}
+
+#newGameBtn {
+    padding: 20px 40px;
+    display: block;
+    margin: 3em auto;
+    font-size: 1.2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: inherit;
+    background-color: transparent;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border: 1px solid #9AABD8;
+    box-shadow: 0 0 24px #F94F6D ;
+    
+}
+
+h4 {
+    display: none;}
